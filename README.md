@@ -13,10 +13,12 @@ curl -L powerview.sh | sh
 _or_
 * Manual (pip3)
 ```
+
+┌──(impacket-fork)─(puck㉿lt-puck)-[~/htb/rebound]
 git clone https://github.com/aniqfakhrul/powerview.py
 cd powerview.py
 sudo apt install libkrb5-dev
-sudo pip3 setup.py install
+pip install -r requirements.txt
 ```
 > [!TIP]
 > Use pipx to remotely fetch and install locally
